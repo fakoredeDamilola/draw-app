@@ -19,7 +19,7 @@ let ctx = canvas.getContext("2d"),
   yValue = 0;
 ctx.lineJoin = "round";
 ctx.lineCap = "round";
-// ctx.fillStyle = "#0099ff";
+ ctx.fillStyle = "#fff";
 
 function drawFreeHand(e) {
   if (!startDrawing) return;
