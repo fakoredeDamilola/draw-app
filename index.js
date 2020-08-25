@@ -185,6 +185,6 @@ download.addEventListener("click", function () {
   img.src = link;
 
   a.setAttribute("href", link);
-  a.download = "my.png";
+  a.download = "canvas.png";
   a.click();
 });
