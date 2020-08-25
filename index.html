@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/da014721b9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Coreldraw</h1>
+      <div class="shapes">
+        <div class="rectangle tooltip" data-shape="rectangle">
+          <i class="fa fa-square-o" aria-hidden="true"></i>
+          <div class="tooltiptext">Rectangle</div>
+        </div>
+
+        <div class="circle tooltip" data-shape="circle">
+          <i class="fa fa-circle-thin" aria-hidden="true"></i>
+          <div class="tooltiptext">Circle</div>
+        </div>
+        <div class="linePattern tooltip" data-shape="linePattern">
+          <i class="fa fa-pencil-square" aria-hidden="true"></i>
+          <div class="tooltiptext">line pattern</div>
+        </div>
+
+        <div class="freeHand tooltip" data-shape="freeHand">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+          <div class="tooltiptext">free hand</div>
+        </div>
+        <div class="eraser tooltip" data-shape="eraser">
+          <i class="fa fa-eraser" aria-hidden="true"></i>
+          <div class="tooltiptext">Eraser</div>
+        </div>
+      </div>
+      <div class="tools">
+        <div class="tool-box tooltip" data-tool="color">
+          <input type="color" name="color" id="color" />
+          <div class="tooltiptext">color</div>
+        </div>
+        <div class="tool-box tooltip" data-tool="lineWidth">
+          <input type="number" name="lineWidth" id="lineWidth" />
+          <div class="tooltiptext">line width</div>
+        </div>
+
+        <div class="download tooltip" data-tool="download">
+          <i class="fa fa-download" aria-hidden="true"></i>
+          <div class="tooltiptext">download as png</div>
+        </div>
+      </div>
+      <canvas> </canvas>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
