@@ -37,7 +37,7 @@ function drawFreeHand(e) {
 }
 function eraserLine(e) {
   if (!startDrawing) return;
-  ctx.strokeStyle = "red";
+  ctx.strokeStyle = "white";
 
   ctx.beginPath();
   ctx.moveTo(lastX, lastY);
